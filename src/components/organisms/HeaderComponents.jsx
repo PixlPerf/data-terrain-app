@@ -9,7 +9,7 @@ import image from '../images/image.jpg'
 const HeaderComponent = () => {
 
 
-    return <div className="flex justify-between px-8 py-4 shadow-lg">
+    return <div className="flex justify-between px-8 py-4 shadow-2xl">
         <div className="flex align-center w-6/12 gap-24 ">
 
             <LogoComponent />
