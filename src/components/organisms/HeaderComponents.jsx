@@ -11,16 +11,11 @@ const HeaderComponent = () => {
 
     return <div className="flex justify-between px-8 py-4 shadow-2xl">
         <div className="flex align-center w-6/12 gap-24 ">
-
             <LogoComponent />
             <InputComponent />
         </div>
         <div className="flex gap-24 items-center">
-
-
             <IconComponent logo={MessageSVG} />
-
-
             <IconComponent logo={MessageSVG} />
             <IconComponent logo={MessageSVG} />
             <IconComponent logo={MessageSVG} />
