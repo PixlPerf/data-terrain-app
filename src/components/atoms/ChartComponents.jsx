@@ -106,8 +106,8 @@ const ChartComponents = () => {
           <XAxis dataKey="name"  />
           <YAxis />
           <Tooltip />
-          <Bar dataKey="Processed" barSize={40} fill="#277ACC"  radius={[10, 10, 0, 0]}/>
-          <Line  type="monotone" dataKey="Received" stroke="#002b55b3"  strokeWidth='6'/>
+          <Bar dataKey="Processed" barSize={25} fill="#277ACC"  radius={[5, 5, 0, 0]}/>
+          <Line  type="monotone" dataKey="Received" stroke="#002b55b3"  strokeWidth='4'/>
         </ComposedChart>
       </ResponsiveContainer>
     );
