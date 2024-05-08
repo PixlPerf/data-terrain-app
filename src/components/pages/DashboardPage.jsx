@@ -1,14 +1,18 @@
 
 import ApplicationInfoComponent from "../molecules/ApplicationInfoComponent";
 import AssesmentDetailComponents from "../molecules/AssesmentDetailComponents";
+import EventsComponents from "../organisms/EventsComponents";
 import HeaderComponent from "../organisms/HeaderComponents";
+import InsightComponents from "../organisms/InsightComponents";
 import SidebarComponent from "../organisms/SidebarComponent";
 import WelcomeBoardComponent from "../organisms/WelcomeBoardComponent";
 
 const DashboardPage = () => {
 
     return (<>
+    <div>
         <HeaderComponent />
+        </div>
         <div className="flex mt-12">
             <SidebarComponent />
             <div className="w-full px-8">
@@ -21,6 +25,14 @@ const DashboardPage = () => {
                     </div>
                     <div className="w-5/12">
                         <AssesmentDetailComponents/>
+                    </div>
+                </div>
+                <div className="flex my-8">
+                <div className="w-full h-full ">
+                    <InsightComponents/>
+                    </div>
+                    <div className="w-96 h-full">
+                    <EventsComponents/>
                     </div>
                 </div>
             </div>
